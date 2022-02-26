@@ -9,7 +9,7 @@ import * as Base from './lib/styles/core/base'
 const refreshFrequency = false
 
 const settings = Settings.get()
-const { yabaiPath = '/usr/local/bin/yabai', shell } = settings.global
+const { yabaiPath = '/opt/homebrew/bin/yabai', shell } = settings.global
 const { processWidget } = settings.widgets
 
 const command = `${shell} simple-bar/lib/scripts/init.sh ${yabaiPath}`
